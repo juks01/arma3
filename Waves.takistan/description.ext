@@ -1,0 +1,31 @@
+/*
+    File: description.ext
+    Author: JukS - https://github.com/juks01/arma3
+    Date: 2021-12-03
+    Last Update: 2021-12-03
+    License: -
+
+    Description:
+        Waves
+
+    Reference from where most descriptions are from:
+        https://community.bistudio.com/wiki/Description.ext
+*/
+
+enableDebugConsole = 1;
+
+#include "ui\mission_params.hpp"
+
+class CfgFunctions {
+	class JWave {
+		class functions {
+			file = "functions";
+
+			class addGroup {};
+			class addVehicle {};
+			class addLightVehicle {};
+			class addBackup {};
+//			class enemyReArm {};
+		};
+	};
+};
